@@ -13,7 +13,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            testCoverageEnabled = true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -28,7 +27,7 @@ dependencies {
 
 apply plugin: 'maven'
 
-version = '1.0.0'
+version = '1.0.1'
 group = 'com.andtinder'
 
 uploadArchives {
